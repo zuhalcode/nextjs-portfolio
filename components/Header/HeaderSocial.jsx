@@ -2,14 +2,23 @@ import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 export default function HeaderSocial() {
   return (
-    <div className="absolute mt-[250px] flex flex-col justify-center space-y-5 ">
-      <a href="#" className="text-color-primary text-[20px] hover:text-white transition-all duration-200">
+    <div className="absolute mt-[250px] hidden flex-col justify-center space-y-5 sm:flex ">
+      <a
+        href="#"
+        className="text-[20px] text-color-primary transition-all duration-200 hover:text-white"
+      >
         <BsLinkedin />
       </a>
-      <a href="#" className="text-color-primary hover:text-white text-[20px] transition-all duration-200">
+      <a
+        href="#"
+        className="text-[20px] text-color-primary transition-all duration-200 hover:text-white"
+      >
         <BsGithub />
       </a>
-      <a href="#" className="text-color-primary hover:text-white text-[20px] transition-all duration-200">
+      <a
+        href="#"
+        className="text-[20px] text-color-primary transition-all duration-200 hover:text-white"
+      >
         <BsInstagram />
       </a>
     </div>

@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/assets/bg-texture.png')] w-full bg-color-bg text-white leading-7">
+    <div className="w-full bg-color-bg bg-[url('/assets/bg-texture.png')] leading-7 text-white">
       <Header />
       <Nav />
       <About />
@@ -22,4 +22,3 @@ export default function Home() {
     </div>
   );
 }
-
