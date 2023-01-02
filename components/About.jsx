@@ -27,21 +27,21 @@ export default function About() {
 
         <div className="mt-10 mr-5 w-full text-center md:mt-0">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
-            <article className="card">
+            <article className="article cursor-default space-y-2 rounded-lg py-8 text-center">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
               <p className="font-medium">Experience</p>
               <small className="text-sm text-color-light">
                 3+ Years Working
               </small>
             </article>
-            <article className="card">
+            <article className="article cursor-default space-y-2 rounded-lg py-8 text-center">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
               <p className="font-medium">Experience</p>
               <small className="text-sm text-color-light">
                 3+ Years Working
               </small>
             </article>
-            <article className="card">
+            <article className="article cursor-default space-y-2 rounded-lg py-8 text-center">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
               <p className="font-medium">Experience</p>
               <small className="text-sm text-color-light">

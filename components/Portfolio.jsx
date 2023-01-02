@@ -3,7 +3,7 @@ import { portfolios } from "../data/PortfolioData";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className="section pt-10">
+    <div id="portfolio" className="section ">
       <h5 className="text-center text-sm font-medium text-color-light">
         My Recent Work
       </h5>
@@ -13,10 +13,7 @@ export default function Portfolio() {
 
       <div className="mx-auto mt-10 grid w-full grid-cols-1 gap-5 px-10 sm:w-[75%] sm:grid-cols-2 sm:px-0 xl:grid-cols-3">
         {portfolios.map((project, index) => (
-          <article
-            key={index}
-            className="rounded-3xl border border-solid border-transparent bg-color-bg-variant p-5 transition-all hover:border-color-primary-variant hover:bg-transparent"
-          >
+          <article key={index} className="article rounded-3xl p-5">
             <div className="overflow-hidden rounded-3xl">
               <Image
                 src="/assets/portfolio1.jpg"

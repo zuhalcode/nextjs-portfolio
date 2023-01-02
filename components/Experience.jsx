@@ -13,7 +13,7 @@ export default function Experience() {
       </h2>
 
       <div className="mx-auto mt-8 grid w-11/12 grid-cols-1 gap-4 md:w-10/12 md:grid-cols-2 md:gap-8">
-        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0  md:px-20">
+        <div className="article mx-auto w-full cursor-default rounded-3xl p-8 md:mx-0  md:px-20">
           <h3 className="mb-8 text-center font-medium uppercase text-color-primary">
             FrontEnd Development
           </h3>
@@ -31,7 +31,7 @@ export default function Experience() {
             ))}
           </div>
         </div>
-        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0  md:px-20">
+        <div className="article mx-auto w-full cursor-default rounded-3xl p-8 md:mx-0  md:px-20">
           <h3 className="mb-8 text-center font-medium uppercase text-color-primary">
             Backend Development
           </h3>

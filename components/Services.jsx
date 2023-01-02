@@ -15,7 +15,7 @@ export default function Services() {
         {services.map((service, index) => (
           <article
             key={index}
-            className="h-fit cursor-default rounded-b-3xl border border-solid border-color-primary border-color-primary-variant bg-color-bg-variant transition-all hover:bg-transparent"
+            className="article h-fit cursor-default rounded-b-3xl"
           >
             <div className="rounded-b-3xl bg-color-primary p-8 shadow-md">
               <h3 className="text-center text-base text-color-bg">

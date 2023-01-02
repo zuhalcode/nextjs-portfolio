@@ -13,6 +13,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.article {
+  @apply border border-solid border-transparent bg-color-bg-variant transition-all hover:border-color-primary-variant hover:bg-transparent;
+}
+
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   @apply mt-[2rem] h-[22rem] w-[80%] overflow-hidden rounded-tl-[12rem] rounded-tr-[12rem] pt-[2.5rem] pr-[.5rem] pl-[.5rem] pb-[.5rem] sm:mt-[4rem] sm:h-[26rem] sm:w-[22rem] sm:pt-[3.5rem] sm:pr-[1.5rem] sm:pb-[1.5rem] sm:pl-[1.5rem];
@@ -49,8 +53,4 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-}
-
-.card {
-  @apply cursor-default space-y-2 rounded-lg border border-solid border-transparent bg-color-bg-variant py-8 text-center transition-all duration-200 hover:border-color-primary-variant hover:bg-transparent;
 }

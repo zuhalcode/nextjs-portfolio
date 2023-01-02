@@ -18,7 +18,6 @@ export default function Home() {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
       <Contact />
       <Footer />
     </div>
