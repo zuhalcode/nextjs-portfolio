@@ -25,7 +25,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="mt-10 mr-5 w-[90%] text-center md:mt-0">
+        <div className="mt-10 mr-5 w-full text-center md:mt-0">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
             <article className="card">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
