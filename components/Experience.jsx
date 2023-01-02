@@ -8,7 +8,7 @@ export default function Experience() {
       <h5 className="text-center text-sm font-medium text-color-light">
         What Skill I Have
       </h5>
-      <h2 className="text-center text-2xl font-medium text-color-primary">
+      <h2 className="pb-5 text-center text-2xl font-medium text-color-primary">
         My Experience
       </h2>
 
