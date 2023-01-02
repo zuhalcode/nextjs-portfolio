@@ -19,7 +19,7 @@
 }
 
 .section {
-  @apply mt-28 bg-green-500 sm:bg-yellow-400 md:bg-red-500 xl:bg-blue-400;
+  @apply mt-28;
 }
 
 .nav-btn.active {

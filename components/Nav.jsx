@@ -38,9 +38,9 @@ export default function Nav() {
         <RiServiceLine />
       </a>
       <a
-        href="#contact"
-        className={`nav-btn ${activeNav === "#contact" && "active"}`}
-        onClick={() => setActiveNav("#contact")}
+        href="#portfolio"
+        className={`nav-btn ${activeNav === "#portfolio" && "active"}`}
+        onClick={() => setActiveNav("#portfolio")}
       >
         <BiMessageSquareDetail />
       </a>
