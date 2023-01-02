@@ -19,7 +19,7 @@
 }
 
 .section {
-  @apply mt-[30rem] md:mt-32;
+  @apply mt-32;
 }
 
 .nav-btn.active {

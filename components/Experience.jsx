@@ -13,17 +13,17 @@ export default function Experience() {
       </h2>
 
       <div className="mx-auto mt-8 grid w-11/12 grid-cols-1 gap-4 md:w-10/12 md:grid-cols-2 md:gap-8">
-        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0 md:w-full md:p-20">
-          <h3 className="mb-8 text-center font-medium text-color-primary">
+        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0  md:px-20">
+          <h3 className="mb-8 text-center font-medium uppercase text-color-primary">
             FrontEnd Development
           </h3>
-          <div className="grid grid-cols-2 gap-8 sm:p-4 xl:p-0">
+          <div className="grid grid-cols-2 gap-6  sm:p-4 xl:p-0">
             {frontEnd.map((data, index) => (
               <article key={index} className="flex gap-4">
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
-                <div className="">
-                  <h4>{data.name}</h4>
-                  <small className="text-color-light">
+                <div>
+                  <h4 className="font-medium">{data.name}</h4>
+                  <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
                   </small>
                 </div>
@@ -31,17 +31,17 @@ export default function Experience() {
             ))}
           </div>
         </div>
-        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0 md:w-full md:p-20">
-          <h3 className="mb-8 text-center font-medium text-color-primary">
-            FrontEnd Development
+        <div className="mx-auto w-full cursor-default rounded-3xl border border-solid border-transparent bg-color-bg-variant p-8 transition-all hover:border-color-primary-variant hover:bg-transparent md:mx-0  md:px-20">
+          <h3 className="mb-8 text-center font-medium uppercase text-color-primary">
+            Backend Development
           </h3>
-          <div className="grid grid-cols-2 gap-8 sm:p-4 xl:p-0">
-            {frontEnd.map((data, index) => (
+          <div className="grid grid-cols-2 gap-6  sm:p-4 xl:p-0">
+            {backEnd.map((data, index) => (
               <article key={index} className="flex gap-4">
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
-                <div className="">
-                  <h4>{data.name}</h4>
-                  <small className="text-color-light">
+                <div>
+                  <h4 className="font-medium">{data.name}</h4>
+                  <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
                   </small>
                 </div>

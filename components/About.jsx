@@ -14,7 +14,7 @@ export default function About() {
       </h2>
 
       <div className="mx-auto mt-10 w-full grid-cols-1 place-items-center gap-[15%] px-5 sm:grid-cols-35-50  md:grid">
-        <div className="gradient-45 mx-auto grid aspect-square w-2/3 place-items-center rounded-3xl sm:w-1/2 md:w-5/6 xl:ml-32">
+        <div className="gradient-45 mx-auto grid aspect-square w-2/3 place-items-center rounded-3xl sm:w-1/2 md:w-5/6 xl:ml-36">
           <div className="rotate-[10deg] overflow-hidden rounded-3xl transition-all duration-500 hover:rotate-0">
             <Image
               width={400}
@@ -25,7 +25,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="mt-10 w-full md:mt-0">
+        <div className="mt-10 mr-5 w-[90%] text-center md:mt-0">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
             <article className="card">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
@@ -50,7 +50,7 @@ export default function About() {
             </article>
           </div>
 
-          <p className="my-6 mx-0 text-center text-color-light md:my-8 md:text-left">
+          <p className="my-6 mx-0  text-color-light md:my-8 md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
             facilis harum dignissimos, nemo corporis necessitatibus soluta,
             rerum perferendis dolores eos ullam? Esse et voluptatum vel ducimus
@@ -58,7 +58,7 @@ export default function About() {
           </p>
           <a
             href="#"
-            className=" rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
+            className=" mx-auto rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
           >
             Let&apos;s Talk
           </a>
