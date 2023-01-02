@@ -22,7 +22,7 @@ export default function Experience() {
               <article key={index} className="flex gap-4">
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
                 <div>
-                  <h4 className="font-medium">{data.name}</h4>
+                  <h4 className="text-[90%] font-medium ">{data.name}</h4>
                   <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
                   </small>
@@ -40,7 +40,7 @@ export default function Experience() {
               <article key={index} className="flex gap-4">
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
                 <div>
-                  <h4 className="font-medium">{data.name}</h4>
+                  <h4 className="text-[90%] font-medium">{data.name}</h4>
                   <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
                   </small>
