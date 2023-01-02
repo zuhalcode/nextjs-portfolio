@@ -1,7 +1,69 @@
+import Image from "next/image";
+import { FiUsers } from "react-icons/fi";
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
+
 export default function About() {
   return (
-    <>
-      <div className="">About</div>
-    </>
+    <div id="about" className="section pt-5 font-poppins">
+      <h5 className="text-center text-sm font-medium text-color-light">
+        Get To Know
+      </h5>
+      <h2 className="text-center text-2xl font-medium text-color-primary">
+        About Me
+      </h2>
+
+      <div className="mx-auto mt-10 w-full grid-cols-1 place-items-center gap-[15%] px-5 sm:grid-cols-35-50  md:grid">
+        <div className="gradient-45 mx-auto grid aspect-square w-2/3 place-items-center rounded-3xl sm:w-1/2 md:w-5/6 xl:ml-32">
+          <div className="rotate-[10deg] overflow-hidden rounded-3xl transition-all duration-500 hover:rotate-0">
+            <Image
+              width={400}
+              height={400}
+              src={"/assets/me-about.jpg"}
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="mt-10 w-full md:mt-0">
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
+            <article className="card">
+              <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
+              <p className="font-medium">Experience</p>
+              <small className="text-sm text-color-light">
+                3+ Years Working
+              </small>
+            </article>
+            <article className="card">
+              <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
+              <p className="font-medium">Experience</p>
+              <small className="text-sm text-color-light">
+                3+ Years Working
+              </small>
+            </article>
+            <article className="card">
+              <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
+              <p className="font-medium">Experience</p>
+              <small className="text-sm text-color-light">
+                3+ Years Working
+              </small>
+            </article>
+          </div>
+
+          <p className="my-6 mx-0 text-center text-color-light md:my-8 md:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            facilis harum dignissimos, nemo corporis necessitatibus soluta,
+            rerum perferendis dolores eos ullam? Esse et voluptatum vel ducimus
+            alias, quis beatae consectetur!
+          </p>
+          <a
+            href="#"
+            className=" rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
+          >
+            Let&apos;s Talk
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }

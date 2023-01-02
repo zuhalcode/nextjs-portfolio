@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        "35-50": "35% 50%",
+      },
       colors: {
         "color-bg": "#1f1f38",
         "color-bg-variant": "#2c2c6c",
@@ -17,4 +23,3 @@ module.exports = {
   },
   plugins: [],
 };
-

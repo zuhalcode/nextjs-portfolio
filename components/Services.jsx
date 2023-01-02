@@ -1,7 +1,7 @@
 export default function Services() {
   return (
-    <>
-      <div className="">Services</div>
-    </>
+    <div id="service" className="section">
+      Services
+    </div>
   );
 }

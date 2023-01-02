@@ -17,3 +17,40 @@
   background: linear-gradient(var(--color-primary), transparent);
   @apply mt-[2rem] h-[22rem] w-[80%] overflow-hidden rounded-tl-[12rem] rounded-tr-[12rem] pt-[2.5rem] pr-[.5rem] pl-[.5rem] pb-[.5rem] sm:mt-[4rem] sm:h-[26rem] sm:w-[22rem] sm:pt-[3.5rem] sm:pr-[1.5rem] sm:pb-[1.5rem] sm:pl-[1.5rem];
 }
+
+.section {
+  @apply mt-[30rem] md:mt-32;
+}
+
+.nav-btn.active {
+  @apply bg-color-bg text-white;
+}
+
+.nav-btn {
+  @apply flex rounded-full bg-transparent p-4 text-lg text-color-light hover:bg-[rgba(0,0,0,.3)] hover:text-white;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.gradient-45 {
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  @apply cursor-default space-y-2 rounded-lg border border-solid border-transparent bg-color-bg-variant py-8 text-center transition-all duration-200 hover:border-color-primary-variant hover:bg-transparent;
+}
