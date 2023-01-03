@@ -24,7 +24,7 @@ export default function Header() {
       </div>
 
       <a
-        href="#"
+        href="#contact"
         className="absolute right-0 bottom-[160px] hidden rotate-90 text-[18px] text-color-primary sm:inline"
       >
         Scroll Down

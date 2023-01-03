@@ -11,7 +11,7 @@ import Services from "../components/Services";
 
 export default function Home() {
   return (
-    <div className="w-full bg-color-bg bg-[url('/assets/bg-texture.png')] leading-7 text-white">
+    <div className="w-full scroll-smooth bg-color-bg bg-[url('/assets/bg-texture.png')] leading-7 text-white">
       <Header />
       <Nav />
       <About />

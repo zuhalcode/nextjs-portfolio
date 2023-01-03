@@ -1,5 +1,30 @@
 import { MdOutlineEmail } from "react-icons/md";
+import emailJS from "@emailjs/browser";
+import { useRef } from "react";
+
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailJS
+      .sendForm(
+        "service_at9xoam",
+        "template_yk3ha36",
+        form.current,
+        "wSAZBrRVnbGtF6s7h"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div id="contact" className="section">
       <h5 className="text-center text-sm font-medium text-color-light">
@@ -36,19 +61,24 @@ export default function Contact() {
             </a>
           </article>
         </div>
-        <form action="" className="flex flex-col gap-5">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-5">
           <input
             type="text"
-            placeholder="Your Message"
+            placeholder="Your Name"
+            autoComplete="off"
+            name="name"
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"
           />
           <input
             type="text"
-            placeholder="Your Message"
+            name="email"
+            autoComplete="off"
+            placeholder="Your Email"
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"
           />
           <textarea
-            type="text"
+            autoComplete="off"
+            name="message"
             rows={7}
             placeholder="Your Message"
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"

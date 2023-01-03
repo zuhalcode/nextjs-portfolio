@@ -17,9 +17,6 @@ module.exports = {
         "color-light": "rgba(255, 255, 255, 0.6)",
       },
     },
-    fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-    },
   },
   plugins: [],
 };

@@ -3,7 +3,7 @@ import { portfolios } from "../data/PortfolioData";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className="section ">
+    <div id="portfolio" className="section pt-10">
       <h5 className="text-center text-sm font-medium text-color-light">
         My Recent Work
       </h5>

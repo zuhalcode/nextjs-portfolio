@@ -13,6 +13,14 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .article {
   @apply border border-solid border-transparent bg-color-bg-variant transition-all hover:border-color-primary-variant hover:bg-transparent;
 }
@@ -27,7 +35,7 @@
 }
 
 .nav-btn.active {
-  @apply bg-color-bg text-white;
+  @apply bg-color-primary text-color-bg;
 }
 
 .nav-btn {
