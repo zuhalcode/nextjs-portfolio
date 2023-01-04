@@ -1,22 +1,22 @@
 export const frontEnd = [
   {
     name: "HTML",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
   {
     name: "CSS",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
   {
     name: "JavaScript",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
   {
     name: "ReactJS",
-    exp: "intermediate",
+    exp: "Beginner",
   },
   {
     name: "TailwindCSS",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
 ];

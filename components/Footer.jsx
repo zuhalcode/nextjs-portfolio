@@ -1,7 +1,26 @@
+import { BsGithub } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+
 export default function Footer() {
+  const socialMedia = [
+    {
+      name: "Facebook",
+      icon: FaFacebook,
+      href: "https://www.facebook.com/dzakiyyulashfiya/",
+    },
+    {
+      name: "Github",
+      icon: BsGithub,
+      href: "https://github.com/zuhalcode",
+    },
+    {
+      name: "Instagram",
+      icon: FiInstagram,
+      href: "https://www.instagram.com/zuhal239_/",
+    },
+  ];
+
   return (
     <footer className="mt-28 bg-color-primary py-12 text-center text-sm">
       <a
@@ -33,29 +52,20 @@ export default function Footer() {
       </ul>
 
       <div className="mx-auto mb-16 flex justify-center gap-4 text-white ">
-        <a
-          href="#"
-          className="flex rounded-md border border-solid border-transparent bg-color-bg p-3 hover:border-color-bg  hover:bg-transparent hover:text-color-bg"
-        >
-          <FaFacebook />
-        </a>
-        <a
-          href="#"
-          className="flex rounded-md border border-solid border-transparent bg-color-bg p-3 hover:border-color-bg  hover:bg-transparent hover:text-color-bg"
-        >
-          <FiInstagram />
-        </a>
-        <a
-          href="#"
-          className="flex rounded-md border border-solid border-transparent bg-color-bg p-3 hover:border-color-bg  hover:bg-transparent hover:text-color-bg"
-        >
-          <IoLogoTwitter />
-        </a>
+        {socialMedia.map((sm) => (
+          <a
+            key={sm.name}
+            href={sm.href}
+            target="_blank"
+            rel="noreferrer"
+            className="flex rounded-md border border-solid border-transparent bg-color-bg p-3 hover:border-color-bg  hover:bg-transparent hover:text-color-bg"
+          >
+            <sm.icon />
+          </a>
+        ))}
       </div>
       <div className="mb-24 text-color-bg">
-        <small className="">
-          &copy; Mohammad Dzakiyyul. All rights reserved.
-        </small>
+        <small>&copy; Mohammad Dzakiyyul. All rights reserved.</small>
       </div>
     </footer>
   );

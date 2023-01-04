@@ -3,22 +3,13 @@ export const services = [
     name: "UI/UX Design",
     descriptions: [
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Building UI/UX design of petona.id Online Shop",
       },
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Building UI/UX design of mobile Restaurant application",
       },
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Building UI/UX of mobile design Hospital application",
       },
     ],
   },
@@ -26,45 +17,13 @@ export const services = [
     name: "Web Development",
     descriptions: [
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Implement of UI/UX Restaurant app to Mobile interface with Flutter",
       },
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Make an API for backend of Restaurant Mobile app with NodeJS and MongoDB",
       },
       {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-    ],
-  },
-  {
-    name: "Content Creation",
-    descriptions: [
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      },
-      {
-        text: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+        text: "Building petona.id website as Fullstack Developer with Laravel",
       },
     ],
   },

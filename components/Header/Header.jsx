@@ -16,7 +16,7 @@ export default function Header() {
           Download CV
         </a>
         <a
-          href="#"
+          href="#contact"
           className=" rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
         >
           Let&apos;s Talk

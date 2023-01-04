@@ -5,7 +5,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 
 export default function About() {
   return (
-    <div id="about" className="section pt-5 font-poppins">
+    <div id="about" className="section font-poppins pt-5">
       <h5 className="text-center text-sm font-medium text-color-light">
         Get To Know
       </h5>
@@ -50,11 +50,13 @@ export default function About() {
             </article>
           </div>
 
-          <p className="my-6 mx-0  text-color-light md:my-8 md:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            facilis harum dignissimos, nemo corporis necessitatibus soluta,
-            rerum perferendis dolores eos ullam? Esse et voluptatum vel ducimus
-            alias, quis beatae consectetur!
+          <p className="my-6 mx-0 text-color-light md:my-8 md:text-justify">
+            Highly motivated individual with a strong foundation in programming
+            concepts. I am skilled in TailwindCSS, ReactJS, NodeJS, and Laravel.
+            I am comfortable with these technologies at a beginner to
+            intermediate level. I am excited to begin my career as a programmer
+            and confident that my strong foundation and determination will
+            enable me to make valuable contributions to any team.
           </p>
           <a
             href="#"

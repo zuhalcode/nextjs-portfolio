@@ -1,26 +1,26 @@
 export const backEnd = [
   {
     name: "PHP",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
   {
     name: "MySQL",
-    exp: "intermediate",
+    exp: "Beginner",
   },
   {
     name: "Laravel",
-    exp: "intermediate",
+    exp: "Intermediate",
   },
   {
     name: "NodeJS",
-    exp: "intermediate",
+    exp: "Beginner",
   },
   {
     name: "ExpressJS",
-    exp: "intermediate",
+    exp: "Beginner",
   },
   {
     name: "MongoDB",
-    exp: "intermediate",
+    exp: "Beginner",
   },
 ];

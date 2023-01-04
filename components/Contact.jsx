@@ -73,12 +73,14 @@ export default function Contact() {
             placeholder="Your Name"
             autoComplete="off"
             name="name"
+            required
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"
           />
           <input
             type="text"
             name="email"
             autoComplete="off"
+            required
             placeholder="Your Email"
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"
           />
@@ -86,6 +88,7 @@ export default function Contact() {
             autoComplete="off"
             name="message"
             rows={7}
+            required
             placeholder="Your Message"
             className="w-full resize-none rounded-lg border border-solid border-color-primary-variant bg-transparent p-6 text-white"
           />

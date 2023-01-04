@@ -15,27 +15,30 @@ export default function Portfolio() {
         {portfolios.map((project, index) => (
           <article key={index} className="article rounded-3xl p-5">
             <div className="overflow-hidden rounded-3xl">
-              <Image
-                src="/assets/portfolio1.jpg"
-                width={500}
-                height={500}
-                alt=""
-              />
+              <Image src={project.img} width={500} height={500} alt="" />
             </div>
             <h3 className="mt-5 mb-8">{project.title}</h3>
             <div className="mb-4 flex gap-4">
-              <a
-                href="#"
-                className="rounded-md border border-color-primary px-3 py-2 text-color-primary hover:bg-white hover:text-color-bg"
-              >
-                Github
-              </a>
-              <a
-                href="#"
-                className=" rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
-              >
-                Live Demo
-              </a>
+              {project.github && (
+                <a
+                  href={project.gitUrl}
+                  target="_blank"
+                  className="cursor-pointer rounded-md border border-color-primary px-3 py-2 text-color-primary hover:bg-white hover:text-color-bg"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              )}
+              {project.liveDemo && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  className=" cursor-pointer rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              )}
             </div>
           </article>
         ))}

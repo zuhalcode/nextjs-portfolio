@@ -11,7 +11,7 @@ export default function Services() {
         Services
       </h2>
 
-      <div className="mx-auto grid h-auto w-full grid-cols-1 gap-6 px-5 sm:w-[80%] sm:grid-cols-2  sm:gap-8 sm:px-0 md:gap-12 xl:grid-cols-3">
+      <div className="mx-auto grid h-auto w-full grid-cols-1 gap-6 px-5 sm:w-[60%] sm:grid-cols-2 sm:gap-8 sm:px-0 md:gap-12 xl:grid-cols-2">
         {services.map((service, index) => (
           <article
             key={index}

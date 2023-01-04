@@ -16,6 +16,13 @@ module.exports = {
         "color-primary-variant": "rgba(77, 181, 255, 0.4)",
         "color-light": "rgba(255, 255, 255, 0.6)",
       },
+      // colors: {
+      //   "color-bg": "#E8F5E9",
+      //   "color-bg-variant": "#C8E6C9",
+      //   "color-primary": "#4CAF50",
+      //   "color-primary-variant": "#388E3C",
+      //   "color-light": "#000000",
+      // },
     },
   },
   plugins: [],
