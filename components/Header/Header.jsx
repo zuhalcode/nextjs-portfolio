@@ -10,7 +10,8 @@ export default function Header() {
 
       <div className="mt-8 flex justify-center space-x-5 ">
         <a
-          href="#"
+          href="/assets/cv2.pdf"
+          target="_blank"
           className="rounded-md border border-color-primary px-3 py-2 text-color-primary hover:bg-white hover:text-color-bg"
         >
           Download CV
@@ -33,7 +34,7 @@ export default function Header() {
       <HeaderSocial />
 
       <div className="me mx-auto">
-        <Image src={"/assets/me.png"} width={500} height={500} alt="" />
+        <Image src={"/assets/me3.png"} width={500} height={500} alt="" />
       </div>
     </div>
   );

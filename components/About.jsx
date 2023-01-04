@@ -19,7 +19,7 @@ export default function About() {
             <Image
               width={400}
               height={400}
-              src={"/assets/me-about.jpg"}
+              src={"/assets/me-about3.jpg"}
               alt=""
             />
           </div>
