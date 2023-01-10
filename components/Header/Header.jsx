@@ -5,12 +5,14 @@ export default function Header() {
   return (
     <div className="relative mx-auto w-[90%] pt-14 text-center">
       <div className="text-lg font-semibold">Hello I&apos;m</div>
-      <h1 className="text-2xl font-bold leading-10 ">Mohammad Dzakiyyul</h1>
-      <div className="text-lg">Fullstack Developer</div>
+      <h1 className="text-2xl font-bold leading-10 ">
+        Mohammad Dzakiyyul Ashfiya&apos; El Arif
+      </h1>
+      <div className="text-lg">JavaScript Enthusiast</div>
 
       <div className="mt-8 flex justify-center space-x-5 ">
         <a
-          href="/assets/cv2.pdf"
+          href="/assets/Dzakiyyul-Ashfiya-El-Arif-CV.pdf"
           target="_blank"
           className="rounded-md border border-color-primary px-3 py-2 text-color-primary hover:bg-white hover:text-color-bg"
         >
@@ -34,7 +36,13 @@ export default function Header() {
       <HeaderSocial />
 
       <div className="me mx-auto">
-        <Image src={"/assets/me3.png"} width={500} height={500} alt="" />
+        <Image
+          src={"/assets/anjay3.png"}
+          className="rounded-3xl"
+          width={500}
+          height={500}
+          alt=""
+        />
       </div>
     </div>
   );

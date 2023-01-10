@@ -28,8 +28,9 @@
 }
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  @apply mt-[2rem] h-[22rem] w-[80%] overflow-hidden rounded-tl-[12rem] rounded-tr-[12rem] pt-[2.5rem] pr-[.5rem] pl-[.5rem] pb-[.5rem] sm:mt-[4rem] sm:h-[26rem] sm:w-[22rem] sm:pt-[3.5rem] sm:pr-[1.5rem] sm:pb-[1.5rem] sm:pl-[1.5rem];
+  /* background: linear-gradient(var(--color-primary), transparent); */
+
+  @apply mt-[2rem] h-[22rem] w-[80%] pt-[2.5rem] pr-[.5rem] pl-[.5rem] pb-[.5rem] sm:mt-[4rem] sm:h-[26rem] sm:w-[25rem] sm:pt-[3.5rem] sm:pr-[1.5rem] sm:pb-[1.5rem] sm:pl-[1.5rem];
 }
 
 .section {
