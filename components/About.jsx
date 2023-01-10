@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { FiUsers } from "react-icons/fi";
 import { FaAward } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
+import aboutMe from "../public/assets/anjay1.png";
 
 export default function About() {
   return (
@@ -16,12 +15,7 @@ export default function About() {
       <div className="mx-auto mt-10 w-full grid-cols-1 place-items-center gap-[15%] px-5 sm:grid-cols-35-50  md:grid">
         <div className="gradient-45 mx-auto grid aspect-square w-2/3 place-items-center rounded-3xl sm:w-1/2 md:w-5/6 xl:ml-36">
           <div className="rotate-[10deg] overflow-hidden rounded-3xl transition-all duration-500 hover:rotate-0">
-            <Image
-              width={400}
-              height={400}
-              src={"/assets/me-about3.png"}
-              alt=""
-            />
+            <Image width={400} height={400} src={aboutMe} alt="" />
           </div>
         </div>
 

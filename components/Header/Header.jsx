@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeaderSocial from "./HeaderSocial";
+import me from "../../public/assets/anjay3.png";
 
 export default function Header() {
   return (
@@ -37,7 +38,7 @@ export default function Header() {
 
       <div className="me mx-auto">
         <Image
-          src={"/assets/anjay3.png"}
+          src={me}
           className="rounded-3xl"
           width={500}
           height={500}
