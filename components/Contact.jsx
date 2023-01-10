@@ -23,7 +23,7 @@ export default function Contact() {
       );
   };
   return (
-    <div id="contact" className="section">
+    <div id="contact" className="section pt-5">
       <h5 className="text-center text-sm font-medium text-color-light">
         Get in Touch
       </h5>

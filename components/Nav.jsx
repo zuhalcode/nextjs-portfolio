@@ -31,16 +31,16 @@ export default function Nav() {
         <BiBook />
       </a>
       <a
-        href="#service"
-        className={`nav-btn ${activeNav === "#service" && "active"}`}
-        onClick={() => setActiveNav("#service")}
+        href="#portfolio"
+        className={`nav-btn ${activeNav === "#portfolio" && "active"}`}
+        onClick={() => setActiveNav("#portfolio")}
       >
         <RiServiceLine />
       </a>
       <a
-        href="#portfolio"
-        className={`nav-btn ${activeNav === "#portfolio" && "active"}`}
-        onClick={() => setActiveNav("#portfolio")}
+        href="#contact"
+        className={`nav-btn ${activeNav === "#contact" && "active"}`}
+        onClick={() => setActiveNav("#contact")}
       >
         <BiMessageSquareDetail />
       </a>
