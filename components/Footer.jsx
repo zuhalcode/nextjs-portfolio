@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className="mt-28 bg-color-primary py-12 text-center text-sm">
       <a
         href="#"
-        className=" mb-8 inline-block text-3xl font-semibold uppercase text-color-bg"
+        className=" mb-8 inline-block text-2xl font-semibold uppercase text-color-bg sm:text-3xl"
       >
         Mohammad Dzakiyyul
       </a>
