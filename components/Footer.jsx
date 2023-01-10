@@ -43,9 +43,9 @@ export default function Footer() {
         <li className="link">
           <a href="#contact">Contact</a>
         </li>
-        <li className="link">
+        {/* <li className="link">
           <a href="#service">Service</a>
-        </li>
+        </li> */}
         <li className="link">
           <a href="#experience">Experience</a>
         </li>

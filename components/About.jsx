@@ -19,8 +19,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="mt-10 mr-5 w-full text-center md:mt-0">
-          <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
+        <div className="mt-10 mr-5 w-full text-center md:-mt-20">
+          {/* <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
             <article className="article cursor-default space-y-2 rounded-lg py-8 text-center">
               <FaAward className="mx-auto mb-5 text-2xl text-color-primary" />
               <p className="font-medium">Experience</p>
@@ -42,9 +42,9 @@ export default function About() {
                 3+ Years Working
               </small>
             </article>
-          </div>
+          </div> */}
 
-          <p className="my-6 mx-0 text-color-light md:my-8 md:text-justify">
+          <p className="my-6 mx-0 text-color-light md:mb-5 md:text-justify xl:mx-10">
             Highly motivated individual with a strong foundation in programming
             concepts. I am skilled in TailwindCSS, ReactJS, NodeJS, and Laravel.
             I am comfortable with these technologies at a beginner to
@@ -53,7 +53,7 @@ export default function About() {
             enable me to make valuable contributions to any team.
           </p>
           <a
-            href="#"
+            href="#contact"
             className=" mx-auto rounded-md bg-color-primary px-3 py-2 text-color-bg-variant hover:bg-white hover:text-color-bg"
           >
             Let&apos;s Talk
