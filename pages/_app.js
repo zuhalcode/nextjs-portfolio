@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>My Portfolio</title>
         <style>{`html{scroll-behavior: smooth}`}</style>
       </Head>
       <Component {...pageProps} />
