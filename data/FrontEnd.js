@@ -16,7 +16,19 @@ export const frontEnd = [
     exp: "Beginner",
   },
   {
+    name: "NextJS",
+    exp: "Beginner",
+  },
+  {
+    name: "Bootstrap",
+    exp: "Intermediate",
+  },
+  {
     name: "TailwindCSS",
     exp: "Intermediate",
+  },
+  {
+    name: "ChakraUI",
+    exp: "Beginner",
   },
 ];

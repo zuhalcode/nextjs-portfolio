@@ -1,8 +1,8 @@
 import img1 from "../public/assets/portfolio1.png";
-import img2 from "../public/assets/portfolio2.jpg";
-import img3 from "../public/assets/portfolio8.png";
-import img4 from "../public/assets/anjay.png";
-import img5 from "../public/assets/docincare.png";
+import img2 from "../public/assets/portfolio3.jpg";
+import img3 from "../public/assets/portfolio2.jpg";
+import img4 from "../public/assets/portfolio4.png";
+import img5 from "../public/assets/anjay.png";
 
 export const portfolios = [
   {
@@ -14,31 +14,30 @@ export const portfolios = [
     liveUrl: "https://petona.id",
   },
   {
-    title: "Restaurant Mobile Application",
+    title: "Ruesto Restaurant Website",
     img: img2,
+    github: true,
+    gitUrl: "https://github.com/zuhalcode/nextjs-restaurant-web",
+    liveDemo: true,
+    liveUrl: "https://ruesto-app.netlify.app/",
+  },
+  {
+    title: "Restaurant Mobile Application",
+    img: img3,
     github: true,
     liveDemo: false,
     gitUrl: "https://github.com/zuhalcode/ruesto-apk",
   },
   {
-    title: "Restaurant Mobile UI Design",
-    img: img3,
-    github: false,
+    title: "Bookly Online Booking System",
+    img: img4,
     liveDemo: true,
-    liveUrl:
-      "https://www.figma.com/file/UBEwhdSq5Cm8ytxc1I9cWm/UInspiration-team-library?node-id=0%3A1&t=nOpINDIIqflgFgHK-0",
+    liveUrl: "https://bookly.boothlab.id/bookly",
   },
   {
     title: "Restaurant REST API",
-    img: img4,
+    img: img5,
     github: true,
     gitUrl: "https://github.com/zuhalcode/ruesto-api",
-  },
-  {
-    title: "Hospital Mobile UI/UX Design",
-    img: img5,
-    liveDemo: true,
-    liveUrl:
-      "https://www.figma.com/file/zk4JQIshIijnV6FDzWUbJH/EmejingProject?node-id=80%3A18&t=XURRTE75vAfB22sZ-1",
   },
 ];

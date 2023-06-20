@@ -4,6 +4,10 @@ export const backEnd = [
     exp: "Intermediate",
   },
   {
+    name: "TypeScript",
+    exp: "Beginner",
+  },
+  {
     name: "MySQL",
     exp: "Beginner",
   },
