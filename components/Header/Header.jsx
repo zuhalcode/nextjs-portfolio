@@ -13,7 +13,7 @@ export default function Header() {
 
       <div className="mt-8 flex justify-center space-x-5 ">
         <a
-          href="/assets/Dzakiyyul-Ashfiya-El-Arif-CV.pdf"
+          href="/assets/Dzakiyyul-Ashfiya-CV.pdf"
           target="_blank"
           className="rounded-md border border-color-primary px-3 py-2 text-color-primary hover:bg-white hover:text-color-bg"
         >
