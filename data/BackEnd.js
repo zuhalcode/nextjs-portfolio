@@ -1,14 +1,14 @@
 export const backEnd = [
   {
-    name: "PHP",
-    exp: "Intermediate",
-  },
-  {
     name: "TypeScript",
     exp: "Beginner",
   },
   {
-    name: "MySQL",
+    name: "NestJS",
+    exp: "Beginner",
+  },
+  {
+    name: "Prisma",
     exp: "Beginner",
   },
   {
@@ -16,15 +16,7 @@ export const backEnd = [
     exp: "Intermediate",
   },
   {
-    name: "NodeJS",
-    exp: "Beginner",
-  },
-  {
-    name: "ExpressJS",
-    exp: "Beginner",
-  },
-  {
-    name: "MongoDB",
+    name: "MySQL",
     exp: "Beginner",
   },
 ];

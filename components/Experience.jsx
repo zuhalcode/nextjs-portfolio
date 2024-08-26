@@ -23,9 +23,9 @@ export default function Experience() {
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
                 <div>
                   <h4 className="text-[90%] font-medium ">{data.name}</h4>
-                  <small className="font-medium tracking-wider text-color-light">
+                  {/* <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
-                  </small>
+                  </small> */}
                 </div>
               </article>
             ))}
@@ -41,9 +41,9 @@ export default function Experience() {
                 <BsPatchCheckFill className="mt-1 text-color-primary" />
                 <div>
                   <h4 className="text-[90%] font-medium">{data.name}</h4>
-                  <small className="font-medium tracking-wider text-color-light">
+                  {/* <small className="font-medium tracking-wider text-color-light">
                     {data.exp.replace(/^\w/, (c) => c.toUpperCase())}
-                  </small>
+                  </small> */}
                 </div>
               </article>
             ))}

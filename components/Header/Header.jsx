@@ -9,7 +9,7 @@ export default function Header() {
       <h1 className="text-2xl font-bold leading-10 ">
         Mohammad Dzakiyyul Ashfiya&apos; El Arif
       </h1>
-      <div className="text-lg">JavaScript Enthusiast</div>
+      <div className="text-lg">Website Developer</div>
 
       <div className="mt-8 flex justify-center space-x-5 ">
         <a

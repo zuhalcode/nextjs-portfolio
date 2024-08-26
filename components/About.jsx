@@ -45,12 +45,13 @@ export default function About() {
           </div> */}
 
           <p className="my-6 mx-0 text-color-light md:mb-5 md:text-justify xl:mx-10">
-            Highly motivated individual with a strong foundation in programming
-            concepts. I am skilled in TailwindCSS, ReactJS, NodeJS, and Laravel.
-            I am comfortable with these technologies at a beginner to
-            intermediate level. I am excited to begin my career as a programmer
-            and confident that my strong foundation and determination will
-            enable me to make valuable contributions to any team.
+            I am an individual with a strong interest in Website Development,
+            particularly in JavaScript technology. I focus on developing various
+            projects using JavaScript frameworks like ReactJS, NextJS, and
+            NestJS, integrated with TailwindCSS to create modern, efficient, and
+            scalable web applications. My career goal is contributing to
+            building innovative web solutions that support digital
+            transformation.
           </p>
           <a
             href="#contact"

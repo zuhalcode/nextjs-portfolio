@@ -17,7 +17,7 @@ export default function Portfolio() {
             <div className="overflow-hidden rounded-3xl">
               <Image src={project.img} width={500} height={500} alt="" />
             </div>
-            <h3 className="mt-5 mb-8">{project.title}</h3>
+            <h3 className="mt-5 mb-8 text-center">{project.title}</h3>
             <div className="mb-4 flex gap-4">
               {project.github && (
                 <a

@@ -1,17 +1,5 @@
 export const frontEnd = [
   {
-    name: "HTML",
-    exp: "Intermediate",
-  },
-  {
-    name: "CSS",
-    exp: "Intermediate",
-  },
-  {
-    name: "JavaScript",
-    exp: "Intermediate",
-  },
-  {
     name: "ReactJS",
     exp: "Beginner",
   },
@@ -20,15 +8,19 @@ export const frontEnd = [
     exp: "Beginner",
   },
   {
-    name: "Bootstrap",
-    exp: "Intermediate",
+    name: "Framer Motion",
+    exp: "Beginner",
+  },
+  {
+    name: "ShadcnUI",
+    exp: "Beginner",
   },
   {
     name: "TailwindCSS",
     exp: "Intermediate",
   },
   {
-    name: "ChakraUI",
-    exp: "Beginner",
+    name: "Bootstrap",
+    exp: "Intermediate",
   },
 ];

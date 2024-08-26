@@ -1,42 +1,46 @@
-import img1 from "../public/assets/portfolio1.png";
-import img2 from "../public/assets/portfolio3.jpg";
-import img3 from "../public/assets/portfolio2.jpg";
-import img4 from "../public/assets/portfolio4.png";
-import img5 from "../public/assets/anjay.png";
+import petonaImg from "../public/assets/portfolio1.png";
+import booklyImg from "../public/assets/portfolio4.png";
+import ruestoImg from "../public/assets/anjay.png";
+import tetespenaImg from "../public/assets/tetespena.jpg";
+import exportImg from "../public/assets/export.jpg";
+import exportAPIImg from "../public/assets/export-api.jpg";
 
 export const portfolios = [
   {
+    title: "Tetespena Article Blog Website",
+    img: tetespenaImg,
+    github: true,
+    gitUrl: "https://github.com/zuhalcode/tetespena",
+    liveDemo: true,
+    liveUrl: "https://tetespena.site/",
+  },
+  {
+    title: "Export Product Recommender Website",
+    img: exportImg,
+    github: true,
+    gitUrl: "https://github.com/zuhalcode/export-recommender",
+  },
+  {
+    title: "Export Product Recommender API",
+    img: exportAPIImg,
+    github: true,
+    gitUrl: "https://github.com/zuhalcode/export-recommender-api",
+  },
+  {
     title: "Petona Online Shop",
-    img: img1,
+    img: petonaImg,
     github: true,
-    liveDemo: true,
     gitUrl: "https://github.com/zuhalcode/laravel-petona-project",
-    liveUrl: "https://petona.id",
-  },
-  {
-    title: "Ruesto Restaurant Website",
-    img: img2,
-    github: true,
-    gitUrl: "https://github.com/zuhalcode/nextjs-restaurant-web",
-    liveDemo: true,
-    liveUrl: "https://ruesto-app.netlify.app/",
-  },
-  {
-    title: "Restaurant Mobile Application",
-    img: img3,
-    github: true,
-    liveDemo: false,
-    gitUrl: "https://github.com/zuhalcode/ruesto-apk",
   },
   {
     title: "Bookly Online Booking System",
-    img: img4,
-    liveDemo: true,
-    liveUrl: "https://bookly.boothlab.id/bookly",
+    img: booklyImg,
+    github: true,
+    gitUrl: "https://github.com/zuhalcode/bookly-createch",
   },
   {
     title: "Restaurant REST API",
-    img: img5,
+    img: ruestoImg,
     github: true,
     gitUrl: "https://github.com/zuhalcode/ruesto-api",
   },
